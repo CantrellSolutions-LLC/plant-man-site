@@ -1,188 +1,49 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Plant Man | Stone Work, Outdoor Kitchens, Fire Pits & Water Features</title>
   <meta name="description" content="Plant Man builds stone work, outdoor kitchens, fire pits, retaining walls, patios, and water features for homeowners, property owners, churches, and organizations across Charlotte, Mecklenburg County, Stanly County, and Cabarrus County." />
   <meta name="robots" content="index,follow" />
-  <meta name="theme-color" content="#163126" />
   <link rel="canonical" href="https://cantrellsolutions-llc.github.io/plant-man-site/" />
-  <meta property="og:title" content="Plant Man | Stone Work, Outdoor Kitchens, Fire Pits & Water Features" />
-  <meta property="og:description" content="Stone work, outdoor kitchens, fire pits, retaining walls, patios, and water features across the Charlotte area." />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="format-detection" content="telephone=yes" />
+  <meta name="theme-color" content="#163126" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
-    "name": "Plant Man",
-    "url": "https://cantrellsolutions-llc.github.io/plant-man-site/",
-    "description": "Plant Man builds stone work, outdoor kitchens, fire pits, retaining walls, patios, and water features across Charlotte, Mecklenburg County, Stanly County, and Cabarrus County.",
-    "telephone": "+1-704-219-0160",
-    "email": "plantmanco@gmail.com",
-    "priceRange": "$$",
-    "areaServed": [
-      {"@type": "City", "name": "Charlotte"},
-      {"@type": "AdministrativeArea", "name": "Mecklenburg County"},
-      {"@type": "AdministrativeArea", "name": "Stanly County"},
-      {"@type": "AdministrativeArea", "name": "Cabarrus County"}
-    ],
-    "serviceType": [
-      "Stone work",
-      "Outdoor kitchens",
-      "Fire pits",
-      "Retaining walls",
-      "Patios",
-      "Pondless waterfalls",
-      "Water features",
-      "Water feature repair"
-    ],
-    "sameAs": [
-      "https://g.page/r/CSCBolkBxKQeEAE/review"
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Charlotte",
-      "addressRegion": "NC",
-      "addressCountry": "US"
-    }
-  }
-  </script>
   <style>
-    :root {
-      --bg: #f7f4ed;
-      --surface: #fffdf8;
-      --surface-2: #f1ece2;
-      --text: #1f261f;
-      --muted: #5b635a;
-      --line: #d8d1c5;
-      --primary: #163126;
-      --primary-strong: #0f241b;
-      --primary-soft: #e5ece7;
-      --radius: 18px;
-      --shadow: 0 12px 30px rgba(20, 28, 20, 0.08);
-      --max: 1120px;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      font-family: 'Work Sans', Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    a { color: var(--primary); }
-    img { max-width: 100%; display: block; height: auto; border-radius: var(--radius); }
-    .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
-    .skip { position: absolute; left: -9999px; top: 0; }
-    .skip:focus { left: 16px; top: 16px; background: var(--surface); padding: 10px 14px; z-index: 1000; }
-    header { position: sticky; top: 0; background: rgba(247, 244, 237, 0.94); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-    .nav { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 14px 0; }
-    .brand { font-weight: 700; text-decoration: none; color: var(--text); }
-    .brand-mark { display: inline-flex; align-items: center; gap: 10px; }
-    .brand-mark svg { width: 34px; height: 34px; }
-    nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 14px; padding: 0; margin: 0; }
-    nav a { text-decoration: none; font-size: 0.96rem; }
-    main { padding: 40px 0 64px; }
-    .hero { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 28px; align-items: center; }
-    .eyebrow { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.8rem; color: var(--muted); font-weight: 700; }
-    h1, h2, h3 { line-height: 1.12; margin: 0 0 14px; }
-    h1 { font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(2.5rem, 5vw, 4.7rem); max-width: 12ch; }
-    h2 { font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(1.8rem, 3vw, 2.8rem); }
-    h3 { font-size: 1.2rem; }
-    p { margin: 0 0 16px; max-width: 68ch; }
-    .lede { font-size: 1.08rem; color: var(--muted); }
-    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
-    .btn {
-      display: inline-block;
-      padding: 13px 18px;
-      border-radius: 999px;
-      text-decoration: none;
-      font-weight: 700;
-      min-height: 44px;
-    }
-    .btn-primary { background: var(--primary); color: #fff; }
-    .btn-primary:hover { background: var(--primary-strong); }
-    .btn-secondary { border: 1px solid var(--line); background: var(--surface); color: var(--text); }
-    .panel, .card {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-    }
-    .panel { padding: 22px; }
-    .hero-art {
-      min-height: 420px;
-      background: linear-gradient(180deg, rgba(22,49,38,0.08), rgba(22,49,38,0.02)), var(--surface-2);
-      display: grid;
-      place-items: center;
-      padding: 28px;
-    }
-    .hero-art-inner {
-      width: 100%;
-      min-height: 360px;
-      border-radius: calc(var(--radius) - 4px);
-      border: 1px dashed rgba(22,49,38,0.25);
-      padding: 24px;
-      display: grid;
-      align-content: end;
-      background:
-        linear-gradient(160deg, rgba(255,255,255,0.75), rgba(255,255,255,0.28)),
-        repeating-linear-gradient(135deg, rgba(22,49,38,0.08) 0 10px, rgba(22,49,38,0.03) 10px 20px);
-    }
-    section { padding-top: 56px; }
-    .grid-2, .grid-3 { display: grid; gap: 20px; }
-    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-    .card { padding: 22px; }
-    .list { padding-left: 18px; margin: 0; }
-    .list li { margin-bottom: 10px; }
-    .quote-box { background: var(--primary); color: #fff; }
-    .quote-box a { color: #fff; }
-    .quote-box p { color: rgba(255,255,255,0.88); }
-    form { display: grid; gap: 14px; }
-    label { font-weight: 600; }
-    input, select, textarea {
-      width: 100%;
-      margin-top: 6px;
-      padding: 12px 14px;
-      border: 1px solid #bfc6bb;
-      border-radius: 12px;
-      font: inherit;
-      background: #fff;
-      min-height: 44px;
-    }
-    textarea { min-height: 130px; resize: vertical; }
-    footer { padding: 34px 0 60px; color: var(--muted); }
-    .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-    @media (max-width: 900px) {
-      .hero, .grid-2, .grid-3, .footer-grid { grid-template-columns: 1fr; }
-      .nav { align-items: flex-start; flex-direction: column; }
-      h1 { max-width: 14ch; }
-    }
+    :root{--bg:#f6f2ea;--surface:#fffdf9;--surface-2:#eee7da;--text:#1d241d;--muted:#5d655d;--line:#d6cfbf;--primary:#163126;--primary-2:#0f241b;--soft:#e4ece7;--radius:18px;--shadow:0 10px 28px rgba(21,30,21,.08);--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'Work Sans',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}a{color:var(--primary)}img{max-width:100%;display:block;height:auto;border-radius:var(--radius)}.wrap{width:min(var(--max),calc(100% - 32px));margin:0 auto}.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;background:#fff;padding:10px 14px;z-index:999}.site-header{position:sticky;top:0;background:rgba(246,242,234,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}.header-row{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 0}.brand{display:flex;align-items:center;gap:12px;color:var(--text);text-decoration:none;font-weight:700}.brand img{width:52px;height:52px;object-fit:contain;border-radius:0;background:transparent}.brand-fallback{width:52px;height:52px;border-radius:12px;border:1px solid var(--line);display:grid;place-items:center;background:var(--surface);font-weight:700;color:var(--primary)}nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:14px;padding:0;margin:0}nav a{text-decoration:none;font-size:.95rem}.top-actions{display:flex;gap:10px;flex-wrap:wrap}.btn{display:inline-block;padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:700;min-height:44px}.btn-primary{background:var(--primary);color:#fff}.btn-primary:hover{background:var(--primary-2)}.btn-secondary{background:var(--surface);border:1px solid var(--line);color:var(--text)}main{padding:36px 0 64px}.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;font-weight:700;color:var(--muted)}h1,h2,h3{line-height:1.12;margin:0 0 14px}h1{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2.6rem,5vw,4.8rem);max-width:12ch}h2{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(1.8rem,3vw,2.7rem)}h3{font-size:1.22rem}p{margin:0 0 16px;max-width:70ch}.lede{font-size:1.07rem;color:var(--muted)}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.panel,.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}.panel{padding:22px}.hero-media{min-height:460px;background:linear-gradient(180deg,rgba(22,49,38,.08),rgba(22,49,38,.02)),var(--surface-2);display:grid;grid-template-rows:1fr auto;padding:18px}.image-slot{min-height:290px;border-radius:calc(var(--radius) - 4px);border:1px dashed rgba(22,49,38,.25);background:repeating-linear-gradient(135deg,rgba(22,49,38,.08) 0 12px,rgba(22,49,38,.03) 12px 24px);display:grid;place-items:center;text-align:center;padding:20px;color:var(--muted)}.media-note{padding-top:18px}.section{padding-top:56px}.grid-2,.grid-3{display:grid;gap:20px}.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}.card{padding:22px}.list{margin:0;padding-left:18px}.list li{margin-bottom:10px}.gallery-note{font-size:.95rem;color:var(--muted)}.quote-box{background:var(--primary);color:#fff}.quote-box p,.quote-box li{color:rgba(255,255,255,.9)}form{display:grid;gap:14px}label{font-weight:600}input,select,textarea{width:100%;margin-top:6px;padding:12px 14px;border:1px solid #bcc6bd;border-radius:12px;font:inherit;min-height:44px}textarea{min-height:130px;resize:vertical}.helper{font-size:.95rem;color:rgba(255,255,255,.82)}footer{padding:34px 0 60px;color:var(--muted)}.footer-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.footer-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}@media (max-width:980px){.hero,.grid-2,.grid-3,.footer-grid{grid-template-columns:1fr}.header-row{flex-direction:column;align-items:flex-start}.top-actions{width:100%}h1{max-width:14ch}}
   </style>
+  <script>
+    function sendQuoteEmail(e){
+      e.preventDefault();
+      const f=e.target;
+      const name=f.name.value.trim();
+      const phone=f.phone.value.trim();
+      const location=f.location.value.trim();
+      const service=f.service.value.trim();
+      const details=f.details.value.trim();
+      const subject=encodeURIComponent('Plant Man quote request - ' + (service || 'New project'));
+      const body=encodeURIComponent(
+        'Name: ' + name + '\n' +
+        'Phone: ' + phone + '\n' +
+        'Project location: ' + location + '\n' +
+        'Project type: ' + service + '\n\n' +
+        'Project details:\n' + details
+      );
+      window.location.href='mailto:plantmanco@gmail.com?subject=' + subject + '&body=' + body;
+    }
+  </script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header>
-    <div class="wrap nav">
+  <header class="site-header">
+    <div class="wrap header-row">
       <a class="brand" href="./index.html" aria-label="Plant Man home">
-        <span class="brand-mark">
-          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-            <path d="M13 45c10-4 16-12 19-24 6 6 11 13 13 23" />
-            <path d="M23 45c4-8 7-16 9-26" />
-            <path d="M8 49h48" />
-            <path d="M37 21c7 1 13 6 17 13" />
-          </svg>
-          <span>Plant Man</span>
-        </span>
+        <img src="./plant-man-logo.png" alt="Plant Man logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+        <span class="brand-fallback" style="display:none;">PM</span>
+        <span>Plant Man</span>
       </a>
       <nav aria-label="Primary navigation">
         <ul>
@@ -195,9 +56,12 @@
           <li><a href="./cabarrus-county-nc.html">Cabarrus County</a></li>
         </ul>
       </nav>
+      <div class="top-actions">
+        <a class="btn btn-secondary" href="https://g.page/r/CSCBolkBxKQeEAE/review" target="_blank" rel="noopener noreferrer">Leave a review</a>
+        <a class="btn btn-primary" href="#quote">Request a quote</a>
+      </div>
     </div>
   </header>
-
   <main id="main" class="wrap">
     <section class="hero">
       <div>
@@ -209,17 +73,17 @@
           <a class="btn btn-secondary" href="tel:+17042190160">Call 704-219-0160</a>
         </div>
       </div>
-      <div class="panel hero-art" aria-label="Image area for future project photography">
-        <div class="hero-art-inner">
-          <h2>Use your best finished project photo here.</h2>
-          <p>This spot should show one strong project once images are ready. Until then, the page still reads clean and complete.</p>
+      <div class="panel hero-media">
+        <div class="image-slot">Best hero image goes here.<br>Use one finished project with strong composition.</div>
+        <div class="media-note">
+          <h3>Use this section for the strongest project photo.</h3>
+          <p class="gallery-note">Once images are ready, replace this slot with a real project image and keep the same clean layout.</p>
         </div>
       </div>
     </section>
-
-    <section>
+    <section class="section">
       <div class="grid-2">
-        <div class="card">
+        <article class="card">
           <h2>What Plant Man builds</h2>
           <ul class="list">
             <li>Stone work for patios, walkways, steps, borders, and outdoor feature areas.</li>
@@ -227,8 +91,8 @@
             <li>Fire pits, retaining walls, and custom hardscape elements.</li>
             <li>Pondless waterfalls, pond water features, and repair work for existing systems.</li>
           </ul>
-        </div>
-        <div class="card">
+        </article>
+        <article class="card">
           <h2>Who Plant Man works for</h2>
           <ul class="list">
             <li>Homeowners improving outdoor living space.</li>
@@ -236,100 +100,65 @@
             <li>Churches needing durable and clean site work.</li>
             <li>Organizations looking for straightforward communication and solid finished work.</li>
           </ul>
-        </div>
+        </article>
       </div>
     </section>
-
-    <section>
+    <section class="section">
       <h2>Services</h2>
       <div class="grid-2">
-        <article class="card">
-          <h3><a href="./stone-work.html">Stone work</a></h3>
-          <p>Patios, walkways, steps, borders, fire pits, and custom stone features that fit the property and hold up over time.</p>
-        </article>
-        <article class="card">
-          <h3><a href="./water-features.html">Water features</a></h3>
-          <p>Pondless waterfalls, pond water features, fountains, and repair work for properties that need a clean install and a finished look.</p>
-        </article>
-        <article class="card">
-          <h3><a href="./retaining-walls.html">Retaining walls</a></h3>
-          <p>Walls that support grade changes, shape usable space, and tie into the rest of the build instead of looking tacked on.</p>
-        </article>
-        <article class="card">
-          <h3><a href="./outdoor-kitchens.html">Outdoor kitchens</a></h3>
-          <p>Full outdoor kitchens and backyard builds handled as complete projects, not disconnected add-ons.</p>
-        </article>
+        <article class="card"><h3><a href="./stone-work.html">Stone work</a></h3><p>Patios, walkways, steps, borders, fire pits, and custom stone features that fit the property and hold up over time.</p></article>
+        <article class="card"><h3><a href="./water-features.html">Water features</a></h3><p>Pondless waterfalls, pond water features, fountains, and repair work for properties that need a clean install and a finished look.</p></article>
+        <article class="card"><h3><a href="./retaining-walls.html">Retaining walls</a></h3><p>Walls that support grade changes, shape usable space, and tie into the rest of the build instead of looking tacked on.</p></article>
+        <article class="card"><h3><a href="./outdoor-kitchens.html">Outdoor kitchens</a></h3><p>Full outdoor kitchens and backyard builds handled as complete projects, not disconnected add-ons.</p></article>
       </div>
     </section>
-
-    <section>
+    <section class="section">
       <h2>Service areas</h2>
       <div class="grid-3">
-        <article class="card">
-          <h3><a href="./charlotte-nc.html">Charlotte, NC</a></h3>
-          <p>Work across Charlotte for outdoor kitchens, fire pits, retaining walls, stone work, and water features.</p>
-        </article>
-        <article class="card">
-          <h3><a href="./stanly-county-nc.html">Stanly County, NC</a></h3>
-          <p>Projects for homeowners, churches, and organizations throughout Stanly County.</p>
-        </article>
-        <article class="card">
-          <h3><a href="./cabarrus-county-nc.html">Cabarrus County, NC</a></h3>
-          <p>Stone, wood, and water-feature work for property owners across Cabarrus County.</p>
-        </article>
+        <article class="card"><h3><a href="./charlotte-nc.html">Charlotte, NC</a></h3><p>Work across Charlotte for outdoor kitchens, fire pits, retaining walls, stone work, and water features.</p></article>
+        <article class="card"><h3><a href="./stanly-county-nc.html">Stanly County, NC</a></h3><p>Projects for homeowners, churches, and organizations throughout Stanly County.</p></article>
+        <article class="card"><h3><a href="./cabarrus-county-nc.html">Cabarrus County, NC</a></h3><p>Stone, wood, and water-feature work for property owners across Cabarrus County.</p></article>
       </div>
     </section>
-
-    <section id="quote">
+    <section class="section">
+      <h2>Project photos</h2>
+      <div class="grid-3">
+        <div class="card"><div class="image-slot">Stone work photo</div><p class="gallery-note">Use one strong patio, walkway, or fire-pit project.</p></div>
+        <div class="card"><div class="image-slot">Water feature photo</div><p class="gallery-note">Use one pondless waterfall or pond feature image.</p></div>
+        <div class="card"><div class="image-slot">Outdoor kitchen or wall photo</div><p class="gallery-note">Use one complete build photo with clean lines and good lighting.</p></div>
+      </div>
+    </section>
+    <section id="quote" class="section">
       <div class="card quote-box">
         <h2>Request a quote</h2>
-        <p>Use the form below to start the conversation. Keep it simple. A short description, location, and best contact number is enough to get moving.</p>
-        <form>
-          <div>
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" autocomplete="name" />
-          </div>
-          <div>
-            <label for="phone">Phone</label>
-            <input id="phone" name="phone" type="tel" autocomplete="tel" />
-          </div>
-          <div>
-            <label for="location">Project location</label>
-            <input id="location" name="location" type="text" autocomplete="street-address" />
-          </div>
-          <div>
-            <label for="service">Project type</label>
-            <select id="service" name="service">
-              <option>Stone work</option>
-              <option>Water features</option>
-              <option>Retaining walls</option>
-              <option>Outdoor kitchens</option>
-              <option>Fire pits</option>
-              <option>Backyard project</option>
-              <option>Repair work</option>
-            </select>
-          </div>
-          <div>
-            <label for="details">Project details</label>
-            <textarea id="details" name="details"></textarea>
-          </div>
+        <p>Use the form below to open an email draft with the project details filled in. That email will go to Plant Man at plantmanco@gmail.com.</p>
+        <p class="helper">This depends on the visitor having a mail app set up on their phone or computer.</p>
+        <form onsubmit="sendQuoteEmail(event)">
+          <div><label for="name">Name</label><input id="name" name="name" type="text" required></div>
+          <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" required></div>
+          <div><label for="location">Project location</label><input id="location" name="location" type="text" required></div>
+          <div><label for="service">Project type</label><select id="service" name="service"><option>Stone work</option><option>Water features</option><option>Retaining walls</option><option>Outdoor kitchens</option><option>Fire pits</option><option>Backyard project</option><option>Repair work</option></select></div>
+          <div><label for="details">Project details</label><textarea id="details" name="details" required></textarea></div>
           <div class="actions">
-            <a class="btn btn-secondary" href="mailto:plantmanco@gmail.com?subject=Plant%20Man%20quote%20request">Email Plant Man</a>
-            <a class="btn btn-secondary" href="https://g.page/r/CSCBolkBxKQeEAE/review" target="_blank" rel="noopener noreferrer">Read reviews</a>
+            <button class="btn btn-secondary" type="submit">Email quote request</button>
+            <a class="btn btn-secondary" href="mailto:plantmanco@gmail.com">Email Plant Man directly</a>
           </div>
         </form>
       </div>
     </section>
   </main>
-
   <footer>
     <div class="wrap footer-grid">
       <div>
         <strong>Plant Man</strong>
         <p>Stone work, outdoor kitchens, fire pits, retaining walls, patios, and water features across the Charlotte area.</p>
+        <div class="footer-actions">
+          <a class="btn btn-secondary" href="https://g.page/r/CSCBolkBxKQeEAE/review" target="_blank" rel="noopener noreferrer">Leave a review</a>
+          <a class="btn btn-secondary" href="tel:+17042190160">Call 704-219-0160</a>
+        </div>
       </div>
       <div>
-        <p><a href="tel:+17042190160">704-219-0160</a><br><a href="mailto:plantmanco@gmail.com">plantmanco@gmail.com</a></p>
+        <p><a href="mailto:plantmanco@gmail.com">plantmanco@gmail.com</a><br><a href="./charlotte-nc.html">Charlotte service area</a></p>
       </div>
     </div>
   </footer>
