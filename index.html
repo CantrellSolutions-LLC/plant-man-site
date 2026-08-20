@@ -145,7 +145,6 @@
     .service-card ul,.contact-card ul,.footer-list{margin:0;padding:0;list-style:none;display:grid;gap:.6rem}
     .service-card li,.contact-card li,.footer-list li{color:var(--color-text-muted)}
     .gallery-item{overflow:hidden}
-    .gallery-media{aspect-ratio:4/3;background:linear-gradient(135deg,#425947,#97ae8f)}
     .gallery-caption{padding:var(--space-4)}
     .gallery-caption strong{display:block;margin-bottom:.35rem}
     .quote-wrap{display:grid;gap:var(--space-6)}
@@ -168,7 +167,7 @@
       .hero-grid,.quote-wrap{grid-template-columns:1.2fr .9fr;align-items:start}
       .proof-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
       .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-      .gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+      .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
       .review-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
       .contact-grid,.footer-grid{grid-template-columns:1.1fr .9fr}
     }
@@ -293,29 +292,91 @@
       </div>
     </section>
 
-    <section id="projects" aria-labelledby="projects-title">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Project gallery</span>
-          <h2 id="projects-title">Show the work clearly.</h2>
-          <p>Replace these placeholders with real Charlotte-area project photos, before-and-after sets, and short captions tied to scope and location.</p>
+<section id="projects" aria-labelledby="projects-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Project gallery</span>
+      <h2 id="projects-title">Real work. Real projects.</h2>
+      <p>Examples of stone work, water features, custom patios, and outdoor spaces built with function, drainage, and finish in mind.</p>
+    </div>
+    <div class="gallery-grid">
+      <article class="gallery-item">
+        <img
+          src="./12954.jpg"
+          alt="Night view of custom stone steps, patio, boulders, and illuminated waterfall feature"
+          width="1440"
+          height="1080"
+          loading="lazy"
+          style="aspect-ratio:4/3;object-fit:cover;width:100%;display:block;"
+        >
+        <div class="gallery-caption">
+          <strong>Stone steps and waterfall feature</strong>
+          <span class="muted">Large-format stonework, boulder placement, lighting, and moving water built into one outdoor space.</span>
         </div>
-        <div class="gallery-grid">
-          <article class="gallery-item">
-            <div class="gallery-media" role="img" aria-label="Stone patio and border installation"></div>
-            <div class="gallery-caption"><strong>Patio stone reset</strong><span class="muted">Charlotte, NC. Reworked grade, reset edge lines, and cleaned up the finish.</span></div>
-          </article>
-          <article class="gallery-item">
-            <div class="gallery-media" role="img" aria-label="Pondless waterfall installation"></div>
-            <div class="gallery-caption"><strong>Pondless waterfall</strong><span class="muted">Matthews area. Built for low maintenance and a cleaner sound profile.</span></div>
-          </article>
-          <article class="gallery-item">
-            <div class="gallery-media" role="img" aria-label="Garden fountain and stone work"></div>
-            <div class="gallery-caption"><strong>Front-yard fountain feature</strong><span class="muted">Huntersville area. Stone base, water line routing, and simple planting frame.</span></div>
-          </article>
+      </article>
+
+      <article class="gallery-item">
+        <img
+          src="./12955.jpg"
+          alt="Aerial view of large custom stone patio integrated with water features and surrounding rock work"
+          width="1600"
+          height="900"
+          loading="lazy"
+          style="aspect-ratio:16/9;object-fit:cover;width:100%;display:block;"
+        >
+        <div class="gallery-caption">
+          <strong>Aerial patio and water-feature layout</strong>
+          <span class="muted">Overhead look at custom stone layout, transitions, and water integration across the full project.</span>
         </div>
-      </div>
-    </section>
+      </article>
+
+      <article class="gallery-item">
+        <img
+          src="./12953.jpg"
+          alt="Backyard patio with clean stone paving, steps, retaining edges, and modern planting beds"
+          width="1080"
+          height="1350"
+          loading="lazy"
+          style="aspect-ratio:4/5;object-fit:cover;width:100%;display:block;"
+        >
+        <div class="gallery-caption">
+          <strong>Patio rebuild and clean finish work</strong>
+          <span class="muted">Stone paving, elevation change, edge detail, and planting zones tied together in a tighter backyard footprint.</span>
+        </div>
+      </article>
+
+      <article class="gallery-item">
+        <img
+          src="./12957.jpg"
+          alt="Natural stone water feature and pond area overlooking a larger lake setting"
+          width="1440"
+          height="1080"
+          loading="lazy"
+          style="aspect-ratio:4/3;object-fit:cover;width:100%;display:block;"
+        >
+        <div class="gallery-caption">
+          <strong>Natural water feature by the lake</strong>
+          <span class="muted">Rock placement, water movement, and shoreline-style detailing built to fit a larger landscape view.</span>
+        </div>
+      </article>
+
+      <article class="gallery-item">
+        <img
+          src="./12956.jpg"
+          alt="Modern poolside hardscape at night with lighting, stone planters, and clean geometric lines"
+          width="1080"
+          height="1440"
+          loading="lazy"
+          style="aspect-ratio:3/4;object-fit:cover;width:100%;display:block;"
+        >
+        <div class="gallery-caption">
+          <strong>Modern hardscape and lighting</strong>
+          <span class="muted">Large-format paving, lighting accents, planter integration, and sharp modern lines around the pool area.</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
     <section id="process" aria-labelledby="process-title">
       <div class="container">
